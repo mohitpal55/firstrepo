@@ -11,6 +11,7 @@ function App() {
     <h1>Mohit PAL </h1>
     <h1>hello</h1>
     <Emp></Emp>
+    <Branch></Branch>
  </div> )
 }
 
@@ -19,5 +20,11 @@ function Emp (){
     <h2>MOHIT</h2>
   )
 }
+function Branch()
+{
+  return( 
+    <h3>10/03</h3>
+  )
 
+}
 export default App
