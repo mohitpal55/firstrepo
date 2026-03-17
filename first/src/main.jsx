@@ -7,6 +7,6 @@ import Demo from './demo/ten.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Demo /> 
+    
   </StrictMode>,
 )
