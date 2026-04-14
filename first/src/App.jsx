@@ -5,27 +5,22 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-   
-            function callfun()
-            {
-                alert ("Function call");
+  const [data, setdata]= useState("OFF")
+  
+  function fun(){
     
-            }
-            function apple()
-            {
-              alert ("Function apple");
-            }
-            function banana()
-            {
-              alert("Function banana");
-            }
+    setdata("ON");
+  }
+
             
              return (
-              <div>
-              <button onClick={callfun}>OK</button>
-              <button onClick={apple}>apple</button>
-              <button onClick={banana}>banana</button>        
-              </div>
+              <>
+              <h1>State of variable</h1>
+              <h1>{data}</h1>
+              <button onClick={fun}>Toggle</button>
+
+              </>
+
    )
 }
 export default App
