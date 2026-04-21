@@ -4,10 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import Demo from './demo/ten.jsx'
 import Toggle from './toggle/toggle.jsx'
+import CounterApp from './viva/counter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Toggle />
-    
+    <CounterApp />
   </StrictMode>,
 )
